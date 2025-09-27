@@ -1,0 +1,15 @@
+{"level":"info","message":"Hello from Acquisitions!","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:20:37:38 +0000] \"GET / HTTP/1.1\" 200 23 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:20:37:55 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:20:38:09 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:20:38:35 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:21:16:06 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:21:17:56 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 400 92 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User ttisloh@gmail.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: ttisloh@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [26/Sep/2025:21:44:20 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 102 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User ttisloh@gmail.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: ttisloh@gmail.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:08:48:25 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 114 \"-\" \"HTTPie\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [27/Sep/2025:08:48:59 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"HTTPie\"","service":"acquisitions-api"}
